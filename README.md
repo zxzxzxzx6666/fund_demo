@@ -1,7 +1,7 @@
 # fund_api_demo 說明
 ### this API is about fund data demo 
 
-# python
+# python : django
 # db : sqlite
 
 ## api token for test:
