@@ -1,14 +1,17 @@
-# fund_demo 說明
-### 此為基金 API 用來與前端戰略儀表板進行串接，由於資料皆已在後端清整完畢，不需要再額外為表進行整理
+# fund_api_demo 說明
+### this API is about fund data demo 
 
-## api token 要放在 header 才能做使用
+# python
+# db : sqlite
+
+## api token for test:
 ```
 key : Authorization
 value: token 72006713e0355c1d6807c821dccac0724c3488e7
 ```
 
-### 網址
+### api :
 ```
-http://192.168.56.159:8000/api/v1/price-filter/
-http://192.168.56.159:8000/api/v1/funds-list/
+get fund by price : /api/v1/price-filter/
+all fund list : /api/v1/funds-list/
 ```
